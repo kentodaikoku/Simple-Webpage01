@@ -1,0 +1,171 @@
+body {
+    max-width: 960px;
+    font-size: 0.9rem; /* 14.4px */
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper{
+    /* padding: 4%;
+    margin: 0 auto; */
+    max-width: 960px;
+    margin: 0 auto;
+    padding:4%;
+    text-align: center;
+  
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 0 auto; */
+}
+
+header h1 {
+    line-height: 0;
+}
+
+header h1 img {
+    width: 6rem;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li {
+    font-size: 0.8rem; /* 11.52px */
+    padding-left: 30px;
+}
+
+.top {
+    margin-bottom: 30px;
+}
+
+.top img {
+    width: 100%;
+    max-width: 1920px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+}
+
+section{
+    color: #504F5A;
+    /* padding-bottom: 30px; */
+}
+
+.wrapper h2 {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 3rem 0 10px;
+    margin:0 auto 1.5rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    width: 25%;
+}
+
+.flex_about{
+    margin:3rem 2.5rem 0;
+    /* width: 75%; */
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 30px;
+}
+
+.name {
+    /* margin-left: 1rem; */
+    font-size: 0.7rem;
+    text-align: left;
+}
+
+.name h3 {
+    font-size: 1.2em;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+
+.name p{
+    line-height: 1.1rem;
+    max-width: 100%;
+}
+
+.each_bicycle {
+    margin: 0 5px;
+    text-align: center;
+}
+
+.each_bicycle h3, .each_bicycle p {
+    margin: 5px 0;
+}
+
+.each_bicycle h3{
+    font-weight: bold;
+}
+
+.each_bicycle p{
+    font-size: 0.7rem;
+}
+
+footer{
+    text-align: center;
+    margin: 50px 0 10px;
+    opacity: 0.8;
+    font-size: 0.3rem;
+}
+
+
+@media screen and (max-width: 600px) {
+    .top img {
+        /* height: calc(100vh - 60px); */
+        height: 400px;
+    }
+
+    .flex_about {
+        flex-direction: column;
+    }
+
+    /* .profile {
+        margin-right: 0;
+    } */
+
+    .profile img {
+        margin-right: 0;
+    }
+
+    .name {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .flex_bicycle {
+        flex-direction: column;
+        margin: 30px 1.2rem;
+    }
+
+    .each_bicycle {
+        margin: 20px 0;
+    }
+
+    .each_bicycle h3{
+        padding: 5px 0;
+    }
+
+    .each_bicycle img {
+        width: 70%;
+    }
+}
